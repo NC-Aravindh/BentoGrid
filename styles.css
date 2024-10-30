@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "dms";
+    src: url("assets/fonts/DMSans-VariableFont_opsz\,wght.ttf");
+}
+
 :root {
     --purple-100: hsl(254, 88%, 90%);
     --purple-500: hsl(256, 67%, 59%);
@@ -20,10 +25,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: "DM Sans", sans-serif;
+    font-family: "dms";
     padding: 1em 10em;
     background-color: rgb(229, 226, 226);
     text-align: left;
+    flex-direction: column;
 }
 
 .grid-container {
@@ -207,6 +213,16 @@ body {
     padding-top: 1em;
 }
 
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
 @media (max-width:768px) {
 
     body {
@@ -311,7 +327,7 @@ body {
         font-size: 1.2em;
     }
 
-    #item6-img{
+    #item6-img {
         max-width: 75%;
         height: 9em;
     }
@@ -346,11 +362,8 @@ body {
         align-self: center;
     }
 
-
-
+    .attribution {
+        font-size: 0.7em;
+        width: max-content;
+    }
 }
-
-
-
-/* .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); } */
