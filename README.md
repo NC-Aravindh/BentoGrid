@@ -18,7 +18,7 @@ This is a solution to the Bento grid challenge on Frontend Mentor. Frontend Ment
 
 ### Screenshot
 
-![BentoGrid Desktop View](readme-assets/mobile.png)
+![BentoGrid Desktop View](readme-assets/desktop.png)
 ![BentoGrid Mobile View](readme-assets/mobile.jpg)
 
 ### Links
